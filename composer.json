@@ -1,0 +1,24 @@
+{
+    "name": "nikos/nik-skroutz-wp",
+    "description": "Produce XML for Skroutz",
+    "keywords": ["wordpress","plugin","roots"],
+    "type": "wordpress-plugin",
+    "homepage": "https://nikchristdev.net",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Nikos Christomanos",
+            "email": "nikoschristomanos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "composer/installers":"v1.0.6"
+    },
+    "autoload":{
+        "psr-4":{"assets\\":"./assets",
+                 "classes\\":"./classes",
+                 "admin\\":"./admin"}
+    }
+}

@@ -1,0 +1,41 @@
+#nikchrist_main_title{
+	-webkit-text-fill-color: #1c87c9;
+}
+
+.runbtnclass{
+	border-radius: 25px;
+	background: transparent;
+	border: 1px ridge #000;
+	cursor: pointer;
+	padding: 10px;
+	transition: 0.4s all ease-in-out;
+	-webkit-transition: 0.4s all ease-in-out;
+	-moz-transition: 0.4s all ease-in-out;
+	-ms-transition: 0.4s all ease-in-out;
+	-o-transition: 0.4s all ease-in-out;
+}
+
+.runbtnclass:hover{
+	background: #000;
+	color: #fff;
+}
+
+#sk-link a{
+	text-decoration: none;
+	color: #1C87C9;
+}
+
+div#var-message{
+	width: 20%;
+	margin: 20px  0px 20px 0px;
+	padding: 20px;
+	background: #1C87C9;
+	color: #fff;
+	text-align: center;
+	animation: 1s left_to_right linear; 
+}
+
+@keyframes left_to_right{
+	from{ margin-left: -30%; opacity: 0;}
+	to{ margin-left: 0; opacity: 1}
+}
